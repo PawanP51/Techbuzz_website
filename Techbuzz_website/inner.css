@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation and Header */
+#header-nav {
+    background-color: #333;
+}
+
+.navbar-brand h1 {
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#logo-img img {
+    max-height: 40px;
+}
+
+/* Section Titles and Brand Names */
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.brand-name {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.product-tile {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-title {
+    font-size: 24px;
+}
+
+.product-description p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Product-photo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    font-size: 18px;
+}
+
+#main-content {
+    padding: 40px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .smartphones,
+    .laptops,
+    .cameras,
+    .smartwatch {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}

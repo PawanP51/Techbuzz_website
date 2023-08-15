@@ -1,0 +1,74 @@
+/* Common styling for all screen sizes */
+body {
+    background-image: url('Images/Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: black; 
+}
+
+.navbar-brand {
+    color: white;
+}
+
+
+.smartphones,
+.laptops,
+.cameras,
+.smartwatch {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.smartphones:hover,
+.laptops:hover,
+.cameras:hover,
+.smartwatch:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    background-color: black;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.panel-footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+
+    .smartphones,
+    .laptops,
+    .cameras,
+    .smartwatch {
+        margin-top: 50px;
+    }
+
+    .smartphones,
+    .laptops,
+    .cameras,
+    .smartwatch {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Laptops and larger */
+    .smartphones,
+    .laptops,
+    .cameras,
+    .smartwatch {
+        margin-top: 80px;
+    }
+}
